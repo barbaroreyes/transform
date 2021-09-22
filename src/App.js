@@ -8,7 +8,16 @@ function App() {
        <h1>transiton</h1> 
       </div>
       <div className="anim">
-       <h1>animation</h1> 
+       <h1>Rotate</h1> 
+      </div>
+      <div className="trans2">
+       <h1 className='opacity'>Opacity</h1> 
+      </div>
+      <div className="transcale">
+       <h1 className='scale'>Scale</h1> 
+      </div>
+      <div className="grow-width">
+       <h1 className='scaleW'>ScaleW</h1> 
       </div>
       
       
