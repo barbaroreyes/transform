@@ -24,7 +24,7 @@
 .trans:hover{
   cursor: pointer;
   transition: all 2s linear;
-  transform: rotateY(360deg)
+  transform: rotatex(.23turn)
 }
 
 /* .App-logo {
