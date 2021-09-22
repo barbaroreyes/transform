@@ -19,6 +19,9 @@ function App() {
       <div className="grow-width">
        <h1 className='scaleW'>ScaleW</h1> 
       </div>
+      <div className="trasla">
+       <h1 className='trasla-w'>Translate</h1> 
+      </div>
       
       
     </div>
