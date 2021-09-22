@@ -5,8 +5,12 @@ function App() {
   return (
     <div className="App">
       <div className="trans">
-       <h1>hello</h1> 
+       <h1>transiton</h1> 
       </div>
+      <div className="anim">
+       <h1>animation</h1> 
+      </div>
+      
       
     </div>
   );
