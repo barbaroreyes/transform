@@ -22,7 +22,7 @@ function App() {
       <div className="trasla">
        <h1 className='trasla-w'>Translate</h1> 
       </div>
-      
+      <div className="key"><h1>Key</h1></div>
       
     </div>
   );
