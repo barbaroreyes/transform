@@ -1,6 +1,6 @@
 import React from 'react'
 
-const animationskey = () => {
+const Animationskey = () => {
   return (
     <div>
       <div className="key"><h1>Keyframe-rotate</h1></div>
@@ -9,4 +9,4 @@ const animationskey = () => {
   )
 }
 
-export default animationskey
+export default Animationskey

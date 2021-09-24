@@ -1,4 +1,4 @@
-
+import Animationskey from './animationskey'
 import './App.css';
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
       <div className="trasla">
        <h1 className='trasla-w'>Translate</h1> 
       </div>
-      
+      <Animationskey/>
     </div>
   );
 }
