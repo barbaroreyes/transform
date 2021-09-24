@@ -23,6 +23,9 @@ function App() {
        <h1 className='trasla-w'>Translate</h1> 
       </div>
       <Animationskey/>
+      <div className="anim-in">
+       <h1>circle</h1> 
+      </div>
     </div>
   );
 }

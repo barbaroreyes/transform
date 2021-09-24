@@ -137,6 +137,29 @@ opacity: 1;
   align-items: center;
   animation: move 2s infinite ease-in-out;
 }
+.anim-in{
+  background-color: rgb(18, 64, 138);
+  width: 100px;
+  height: 100px;
+  margin: 100px auto;
+  color: #ffff;
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+  align-items: center;
+  border-radius: 50%;
+  animation : move-left 1s linear;
+
+}
+@keyframes move-left{
+  from{
+    transform: translateX(50vw);
+    opacity: 0
+  }
+  to{
+    transform: translateX(0)
+  }
+}
 @keyframes move{
   from {
     transform: rotate(0deg);
