@@ -148,15 +148,19 @@ opacity: 1;
   flex-direction:column;
   align-items: center;
   border-radius: 50%;
-  animation : move-left 1s linear;
+  animation : move-left 3s infinite;
 
 }
 @keyframes move-left{
-  from{
-    transform: translateX(50vw);
-    opacity: 0
+  0%{
+   transform: translateX(0)
+    
   }
-  to{
+  50%{
+    transform: translateX(calc(50vw - 50px)) scale(1.5);
+    opacity: 0;
+  }
+  100%{
     transform: translateX(0)
   }
 }
