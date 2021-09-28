@@ -24,7 +24,7 @@ function App() {
       </div>
       <Animationskey/>
       <div className="anim-in">
-       <h1>circle</h1> 
+       <h1>circle-move</h1> 
       </div>
     </div>
   );
