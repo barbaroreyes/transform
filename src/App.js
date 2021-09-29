@@ -1,12 +1,11 @@
 import Animationskey from './animationskey'
+import Transition from './transition';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <div className="trans">
-       <h1>transiton</h1> 
-      </div>
+       <Transition/>
       <div className="anim">
        <h1>Rotate</h1> 
       </div>
